@@ -1,0 +1,79 @@
+[
+    {
+        "case_name": "Test_Caffe_001",
+	"calc_expect_func_file": "/home/ma-user/work/project/Caffe3DTest/Caffe3D_test.py:calc_expect_func",
+        "op": "Caffe",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [3, 5, 7],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1.14,
+                        51.4
+                    ]
+                ],
+                "name": "x"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [3, 3],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "kernel"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32"
+                ],
+                "shape": [1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+		"value": [2],
+                "name": "stride"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32"
+                ],
+                "shape": [6, 27],
+                "name": "y"
+            }
+        ]
+    }
+]

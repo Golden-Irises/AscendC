@@ -1,0 +1,62 @@
+[
+    {
+        "case_name": "Test_VecAdd_001",
+	"calc_expect_func_file": "/home/ma-user/work/project/VecAddTest/VecAdd_test.py:calc_expect_func",
+        "op": "VecAdd",
+        "input_desc": [
+            {
+                "format": [
+                    "ND","ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [998],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.01,
+                        114.51
+                    ]
+                ],
+                "name": "x"
+            },
+            {
+                "format": [
+                    "ND","ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [998],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1.14,
+                        51.14
+                    ]
+                ],
+                "name": "y"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND","ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [998],
+                "name": "z"
+            }
+        ]
+    }
+]

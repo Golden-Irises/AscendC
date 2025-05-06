@@ -1,0 +1,78 @@
+[
+    {
+        "case_name": "Test_Matmad_001",
+	"calc_expect_func_file": "/home/ma-user/work/project/MatMadTest/MatMad_test.py:calc_expect_func",
+        "op": "Matmad",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [5, 12],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        15.6
+                    ]
+                ],
+                "name": "weight"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [12, 7],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1.1,
+                        45.14
+                    ]
+                ],
+                "name": "x"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [7],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1.9,
+                        8.1
+                    ]
+                ],
+                "name": "bias"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [5, 7],
+                "name": "y"
+            }
+        ]
+    }
+]

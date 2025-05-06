@@ -1,0 +1,60 @@
+[
+    {
+        "case_name": "Test_PoolAvg_001",
+	"calc_expect_func_file": "/home/ma-user/work/project/PoolAvgTest/PoolAvg_test.py:calc_expect_func",
+        "op": "PoolAvg",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [6, 27],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1.14,
+                        51.4
+                    ]
+                ],
+                "name": "x"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32"
+                ],
+                "shape": [1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        9,
+                        9
+                    ]
+                ],
+		"value": [9],
+                "name": "poolSize"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [6, 3],
+                "name": "y"
+            }
+        ]
+    }
+]
